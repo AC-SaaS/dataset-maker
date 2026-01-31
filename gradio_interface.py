@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use("Agg") 
+
 import gradio as gr
 import logging
 import json
