@@ -1599,7 +1599,7 @@ def setup_gradio():
 
 def main():
     demo = setup_gradio()
-    demo.launch()
+    demo.launch(share=True)
 
 if __name__ == "__main__":
     import os
