@@ -1,10 +1,9 @@
-import matplotlib
-matplotlib.use("Agg") 
+import os
+os.environ["MPLBACKEND"] = "Agg"
 
 import gradio as gr
 import logging
 import json
-import os
 import shutil
 from pathlib import Path
 from typing import Any, Dict, List, Optional
